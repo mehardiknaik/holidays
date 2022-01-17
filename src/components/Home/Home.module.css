@@ -109,13 +109,15 @@ html{
 }
 .textconainer{
     position: absolute;
-    align-items: center;
     justify-content: center;
     text-align: center;
     display: flex;
     flex-direction: column;
     transition: 0.7s;
     width: 100px;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
 }
 .eventextconainer{
     transform: translateY(53px);
