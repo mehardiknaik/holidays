@@ -101,11 +101,11 @@ html{
 }
 .evenbigcircle{
     border: 6px solid var(--even);
-    transform: translateY(-71px);
+    transform: translateY(-70px);
 }
 .oddbigcircle{
     border: 6px solid var(--odd);
-    transform: translateY(71px);
+    transform: translateY(70px);
 }
 .textconainer{
     position: absolute;
