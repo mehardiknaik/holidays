@@ -1,3 +1,8 @@
+html{
+    --even:#6f2c91;
+    --odd:#4b8f00;
+  }
+
 .widget {
   background-color: white;
   border: 1px solid #e6e6e6;
@@ -26,10 +31,10 @@
     border-radius: 100%;
 }
 .evencircleout{
-    border: 2px solid #6f2c91;
+    border: 2px solid var(--even);
 }
 .oddcircleout{
-    border: 2px solid #4b8f00;
+    border: 2px solid var(--odd);
 }
 .circlein{
     position: absolute;
@@ -38,10 +43,10 @@
     border-radius: 100%;
 }
 .evencirclein{
-    background-color: #6f2c91;
+    background-color: var(--even);
 }
 .oddcirclein{
-    background-color: #4b8f00;
+    background-color: var(--odd);
 }
 .circlehalf{
     position: absolute;
@@ -50,11 +55,11 @@
     border-radius: 100%;
 }
 .evencirclehalf{
-    border-top: 2px solid #6f2c91;
+    border-top: 2px solid var(--even);
     transform: translateY(-6px);
 }
 .oddcirclehalf{
-    border-bottom: 2px solid #4b8f00;
+    border-bottom: 2px solid var(--odd);
     transform: translateY(6px);
 }
 .line{
@@ -63,12 +68,12 @@
     position: absolute;
 }
 .evenline{
-    background: #6f2c91;
+    background: var(--even);
     transform: translateY(-29px);
 }
 .oddline{
     transform: translateY(29px);
-    background: #4b8f00;
+    background: var(--odd);
 
 }
 .smallcircle{
@@ -78,11 +83,11 @@
     border-radius: 100%;
 }
 .evensmallcircle{
-    border: 2px solid #6f2c91;
+    border: 2px solid var(--even);
     transform: translateY(-46px);
 }
 .oddsmallcircle{
-    border: 2px solid #4b8f00;
+    border: 2px solid var(--odd);
     transform: translateY(46px);
 }
 .bigcircle{
@@ -95,11 +100,11 @@
     justify-content: center;
 }
 .evenbigcircle{
-    border: 6px solid #6f2c91;
+    border: 6px solid var(--even);
     transform: translateY(-71px);
 }
 .oddbigcircle{
-    border: 6px solid #4b8f00;
+    border: 6px solid var(--odd);
     transform: translateY(71px);
 }
 .textconainer{
