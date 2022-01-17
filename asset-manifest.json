@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/holidays/static/css/main.27ec0fbf.css",
-    "main.js": "/holidays/static/js/main.d5198f89.js",
+    "main.css": "/holidays/static/css/main.eb8c5070.css",
+    "main.js": "/holidays/static/js/main.a777f74d.js",
     "static/js/377.5288ba08.chunk.js": "/holidays/static/js/377.5288ba08.chunk.js",
     "service-worker.js": "/holidays/service-worker.js",
     "static/media/logo.svg": "/holidays/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/holidays/index.html",
-    "main.27ec0fbf.css.map": "/holidays/static/css/main.27ec0fbf.css.map",
-    "main.d5198f89.js.map": "/holidays/static/js/main.d5198f89.js.map",
+    "main.eb8c5070.css.map": "/holidays/static/css/main.eb8c5070.css.map",
+    "main.a777f74d.js.map": "/holidays/static/js/main.a777f74d.js.map",
     "377.5288ba08.chunk.js.map": "/holidays/static/js/377.5288ba08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27ec0fbf.css",
-    "static/js/main.d5198f89.js"
+    "static/css/main.eb8c5070.css",
+    "static/js/main.a777f74d.js"
   ]
 }
